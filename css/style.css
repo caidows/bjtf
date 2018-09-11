@@ -1,10 +1,16 @@
+html {
+  width: 100%;
+  overflow-x: hidden; }
+
 body {
   background: #fff;
   font-family: "Roboto", arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  color: #999999; }
+  color: #999999;
+  width: 100%;
+  overflow-x: hidden; }
 
 a {
   transition: .3s all ease;
@@ -24,7 +30,7 @@ header {
   z-index: 5; }
   header .navbar-brand {
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     font-weight: 400;
     color: #fff !important; }
   header .navbar {
