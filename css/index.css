@@ -11,3 +11,21 @@
         width: 1250px;
     }
 }
+
+#banner {
+    margin-top: -25px;
+}
+
+body {
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.ftr_widget_about .ftr-cnt-detail p i {
+    position: static;
+}
+
+.section-header h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}

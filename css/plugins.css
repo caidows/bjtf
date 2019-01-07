@@ -11,8 +11,8 @@
 	width: 150px;
 }
 .load-complete .ball-clip-rotate > div {
-	border-color: #E2B13C #E2B13C transparent;
-	background-color: #E2B13C;
+	border-color: #c53f46 #c53f46 transparent;
+	background-color: #c53f46;
 	margin: 0 auto;
 	display: block;
 	top: 50%;
@@ -151,7 +151,7 @@
     width: 100%;
 }
 .goto-next a {
-	color: #e2b13c;
+	color: #c53f46;
 	text-decoration: none;
 }
 .goto-next a i {
