@@ -33,7 +33,6 @@
 }
 .ow-navigation .menu-icon a {
 	background-color: #ad3a40;
-	text-transform: uppercase;
 	color: #fff;
 	padding: 20px 50px;
 	text-decoration: none;
@@ -48,7 +47,6 @@
 .ow-navigation.navbar-default .navbar-nav li  a {
 	font-size: 16px;
 	color: #fff;
-	text-transform: capitalize;
 	font-weight: 400;
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 0.16px;

@@ -12,10 +12,6 @@
     }
 }
 
-#banner {
-    margin-top: -25px;
-}
-
 body {
     font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
@@ -28,4 +24,19 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 30px;
+}
+
+.venu-section .venu-image-block img {
+    width: 172px;
+    height: 129px;
+}
+
+/*介绍头像*/
+.events-content .avatar {
+    margin-top: 10px;
+}
+
+#history-section .img-block {
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

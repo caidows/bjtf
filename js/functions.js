@@ -352,33 +352,33 @@
         panel_resize();
 
         /* - Revolution Slider */
-        if($(".slider-section").length){
-        	$("#home-slider1").revolution({
-        		sliderType:"standard",
-        		delay:6000,
-        		responsiveLevels:[1920,1025,768,480],
-        		gridwidth:[1920,1025,768,480],
-        		gridheight:[788,788,570,400],
-        		navigation: {
-        			arrows:{
-        				enable:true,
-        				style:"uranus"
-        			}
-        		},
-        	});
-        	$("#home-slider2").revolution({
-        		sliderType:"standard",
-        		delay:6000,
-        		responsiveLevels:[1920,1025,768,480],
-        		gridwidth:[1920,1025,768,480],
-        		gridheight:[919,788,570,480],
-        		navigation: {
-        			arrows:{
-        				enable:true,
-        				style:"uranus"
-        			}
-        		},
-        	});
+        if ($(".slider-section").length) {
+            $("#home-slider1").revolution({
+                sliderType: "standard",
+                delay: 6000,
+                responsiveLevels: [1920, 1025, 768, 480],
+                gridwidth: [1920, 1025, 768, 480],
+                gridheight: [788, 788, 570, 400],
+                navigation: {
+                    arrows: {
+                        enable: true,
+                        style: "uranus"
+                    }
+                },
+            });
+            $("#home-slider2").revolution({
+                sliderType: "standard",
+                delay: 6000,
+                responsiveLevels: [1920, 1025, 768, 480],
+                gridwidth: [1920, 1025, 768, 480],
+                gridheight: [919, 788, 570, 480],
+                navigation: {
+                    arrows: {
+                        enable: true,
+                        style: "uranus"
+                    }
+                },
+            });
         }
 
         /* - History Section */
@@ -610,5 +610,6 @@
         }
         $('#header-wrap').load(suffix + '/modules/header.html');
         $('#footer-wrap').load(suffix + '/modules/footer.html');
+        $('#aside-wrap').load(suffix + '/modules/aside.html');
     }
 })(jQuery);
