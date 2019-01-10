@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+.navbar-header .navbar-brand span {
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 1250px;
